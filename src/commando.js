@@ -2,7 +2,6 @@ function factory(deps) {
   "use strict";
 
   var when = deps.when,
-      defer = deps.defer,
       extend = deps.extend,
       storeEvent = deps.storeEvent,
       publishEvent = deps.publishEvent;

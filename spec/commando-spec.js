@@ -1,4 +1,5 @@
 describe("Commando", function() {
+  "use strict";
 
   var expect = require("chai").expect,
       sinon = require("sinon"),
@@ -71,7 +72,7 @@ describe("Commando", function() {
     var rejection;
 
     beforeEach(function(done) {
-      function onResolve(res) { throw "Unexpected resolution"; }
+      function onResolve(res) { throw "Unexpected resolution: " + res; }
       function onReject(err) { rejection = err; done(); }
       command.execute(invalid).then(onResolve, onReject);
     });
