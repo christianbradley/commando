@@ -1,9 +1,17 @@
 {
   "name": "commando",
-  "private": true,
+  "main": "./src/commando",
   "description": "Bare naked command pattern implementation for event driven apps",
+  "keywords": ["command", "pattern", "commando", "event", "source"],
   "author": "Christian Bradley <christian.bradley@gmail.com>",
+  "homepage": "https://github.com/christianbradley/commando",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianbradley/commando.git"
+  },
+  "bugs": "https://github.com/christianbradley/commando/issues",
   "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
     "test": "grunt test",
     "blanket": {
@@ -18,7 +26,6 @@
     "jshint": "~2.1.9",
     "grunt-jsonlint": "~1.0.0",
     "jsonlint": "~1.6.0",
-    "amdefine": "0.0.8",
     "chai": "~1.7.2",
     "sinon": "~1.7.3",
     "mocha": "~1.12.0",
