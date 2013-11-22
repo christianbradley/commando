@@ -3,15 +3,13 @@
   "private": true,
   "description": "Bare naked command pattern implementation for event driven apps",
   "author": "Christian Bradley <christian.bradley@gmail.com>",
-  "version": "0.0.0",
-
+  "version": "0.1.0",
   "scripts": {
     "test": "grunt test",
     "blanket": {
       "pattern": "//^(?!.*(/node_modules/|/spec/)).*/src/.*//"
     }
   },
-
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
