@@ -1,6 +1,6 @@
 {
   "name": "commando",
-  "main": "./src/commando"
+  "main": "./src/commando",
   "description": "Bare naked command pattern implementation for event driven apps",
   "keywords": ["command", "pattern", "commando", "event", "source"],
   "author": "Christian Bradley <christian.bradley@gmail.com>",
