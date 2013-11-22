@@ -2,7 +2,13 @@
   "name": "commando",
   "main": "./src/commando",
   "description": "Bare naked command pattern implementation for event driven apps",
-  "keywords": ["command", "pattern", "commando", "event", "source"],
+  "keywords": [
+    "command",
+    "pattern",
+    "commando",
+    "event",
+    "source"
+  ],
   "author": "Christian Bradley <christian.bradley@gmail.com>",
   "homepage": "https://github.com/christianbradley/commando",
   "repository": {
@@ -10,7 +16,7 @@
     "url": "https://github.com/christianbradley/commando.git"
   },
   "bugs": "https://github.com/christianbradley/commando/issues",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "test": "grunt test",
